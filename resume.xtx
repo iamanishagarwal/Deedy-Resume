@@ -89,9 +89,10 @@ Twitter://  \href{https://twitter.com/pranabs1ngh}{\bf @pranabs1ngh} \\
 Design and Analysis of Algorithms \\
 Data Structures with C \\
 Database Management Systems \\
-Computer Architecture and Systems Software \\
+Computer Architecture\\
 Operating Systems \\
 Computer Graphics \\
+Computer Networks \\
 Unix and Shell Scripting \\
 \sectionsep
 
@@ -169,27 +170,6 @@ MySQL \textbullet{} MongoDB \\
 \item Created a fully functional native app in React Native
 \item Built with reusable components based on React App Architecture
 \end{tightemize}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     AWARDS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Awards} 
-\begin{tabular}{rll}
-2014	     & top 52/2500  & KPCB Engineering Fellow\\
-2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
-2013	     & National  & Jump Trading Challenge Finalist\\
-2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
-2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
-2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
-\end{tabular}
-\sectionsep
-
-
-\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
-\bibliographystyle{abbrv}
-\bibliography{publications}
-\nocite{*}
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
