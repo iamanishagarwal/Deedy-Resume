@@ -1,0 +1,195 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{resume}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Pranab}{Singh}{
+\href{mailto:pranabb.singh@gmail.com}{pranabb.singh@gmail.com} | 891-085-1148
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{MEGHNAD SAHA INSTITUTE}
+\subsection{OF TECHNOLOGY}
+\descript{Bachelor in Computer Application}
+\location{June 2020 | Kolkata, India}
+\location{ Cum. GPA: 8.2 / 10}
+\sectionsep
+
+\subsection{Calcutta Public School}
+\descript{High School}
+\location{Grad. May 2016|  Kolkata, India}
+\location{ Percentage: 83.25 / 100}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Github:// \href{https://github.com/pranabs1ngh}{\bf pranabs1ngh} \\
+LinkedIn://  \href{https://www.linkedin.com/in/pranabs1ngh}{\bf pranabs1ngh} \\
+Twitter://  \href{https://twitter.com/pranabs1ngh}{\bf @pranabs1ngh} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+
+\subsection{Undergraduate}
+Design and Analysis of Algorithms \\
+Data Structures with C \\
+Database Management Systems \\
+Computer Architecture and Systems Software \\
+Operating Systems \\
+Computer Graphics \\
+Unix and Shell Scripting \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\descript{General:}
+Database \textbullet{} Algorithms \textbullet{} Server Side Programming \\
+\descript{Languages:}
+C \textbullet{} C++ \textbullet{} Python \textbullet{} HTML \textbullet{} CSS \\
+JavaScript \textbullet{} \LaTeX\ \\
+\descript{Tools / Framework:}
+NodeJs \textbullet{} django \textbullet{} ReactJs \textbullet{} Redux \\
+Docker \textbullet{} Kubernetes \textbullet{} React Native \\
+MySQL \textbullet{} MongoDB \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\runsubsection{Flock}
+\descript{| Full Fledged Native Messaging Application }
+\location{Sept 2019 - Present}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed all screens with React Native based on reusable components architecture
+\item Implemented peer to peer instant messaging using web sockets protocol
+\item Implemented group messaging feature
+\item Implemented Audio and Video Call using WebRTC
+\item Wrote server using micro-services architecture
+\item Created server and micro-services in Docker based containers
+\item Implemented load balancer using Kubernetes (for multiple server instances)
+\item Created a basic messaging queue from scratch
+\item Implemented MQ and Authentication service using serverless functions (AWS Lambda / Google Cloud Functions)
+\item Enabled end-to-end encryption using RSA encryption method
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Quivia}
+\descript{| Quiz Game with over 100,000 questions }
+\location{July 2019 – Aug 2019}
+\begin{tightemize}
+\item Developed all screens using React based on reusable components architecture
+\item Wrote Screen Update logic based on current game state
+\item Implemented user authentication using google/facebook OAuth or local authentication
+\item Used socket.io to transfer data between two players
+\item Wrote algorithm to maintain socket rooms and match players for a game with specific id
+\item Developed a simple bot to play with the user in case the server can't find an opponent to play with
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Sudoku Saga}
+\descript{| Native Sudoku Application }
+\location{Sept 2019 – Oct 2019}
+\begin{tightemize}
+\item Wrote a backtracking algorithm from scratch to generate a sudoku board
+\item Hid number of cells based on difficulty level selected by user
+\item Implemented undo / erase / pencil / hint features from scratch
+\item Created a fully functional native app in React Native
+\item Built with reusable components based on React App Architecture
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+2014	     & top 52/2500  & KPCB Engineering Fellow\\
+2014	     & 1\textsuperscript{st}/50  & Microsoft Coding Competition, Cornell\\
+2013	     & National  & Jump Trading Challenge Finalist\\
+2013     & 7\textsuperscript{th}/120 & CS 3410 Cache Race Bot Tournament  \\
+2012     & 2\textsuperscript{nd}/150 & CS 3110 Biannual Intra-Class Bot Tournament \\
+2011     & National & Indian National Mathematics Olympiad (INMO) Finalist \\
+\end{tabular}
+\sectionsep
+
+
+\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+\bibliographystyle{abbrv}
+\bibliography{publications}
+\nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
