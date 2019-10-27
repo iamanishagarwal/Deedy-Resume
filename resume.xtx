@@ -92,9 +92,20 @@ Data Structures with C \\
 Database Management Systems \\
 Computer Architecture\\
 Operating Systems \\
-Computer Graphics \\
 Computer Networks \\
 Unix and Shell Scripting \\
+\sectionsep
+
+\subsection{Relevant Courses}
+\descript{Udemy}
+Modern React with Redux \textbullet{}
+Node.js : Building RESTful APIs \textbullet{}
+Advanced React and Redux \textbullet{}
+Node.js : Advanced Concepts \textbullet{}
+Django Core : Guide to Core Django Concepts \textbullet{}
+Junior to Senior Web Developer Course \textbullet{}
+The Complete React Native + Hooks Course \textbullet{}
+Docker \& Kubernetes : The Complete Guide \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
