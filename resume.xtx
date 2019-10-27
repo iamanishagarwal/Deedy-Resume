@@ -38,6 +38,7 @@
 %     TITLE NAME
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \namesection{Pranab}{Singh}{
 \href{mailto:pranabb.singh@gmail.com}{pranabb.singh@gmail.com} | 891-085-1148
 }
@@ -148,7 +149,7 @@ MySQL \textbullet{} MongoDB \\
 \sectionsep
 
 \runsubsection{Quivia}
-\descript{| Quiz Game with over 100,000 questions }
+\descript{| Quiz Game with single/multi-player options }
 \location{July 2019 – Aug 2019}
 \begin{tightemize}
 \item Developed all screens using React based on reusable components architecture
@@ -164,6 +165,7 @@ MySQL \textbullet{} MongoDB \\
 \descript{| Native Sudoku Application }
 \location{Sept 2019 – Oct 2019}
 \begin{tightemize}
+\item Developed all screens using React Native based on reusable components architecture
 \item Wrote a backtracking algorithm from scratch to generate a sudoku board
 \item Hid number of cells based on difficulty level selected by user
 \item Implemented undo / erase / pencil / hint features from scratch
