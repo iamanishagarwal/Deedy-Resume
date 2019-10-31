@@ -133,7 +133,23 @@ MySQL \textbullet{} MongoDB \\
 
 \end{minipage} 
 \hfill
-\begin{minipage}[t]{0.66\textwidth} 
+\begin{minipage}[t]{0.66\textwidth}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{Upwork}
+\descript{| Full Stack JavaScript / Python Developer (Remote) }
+\location{Feb 2019 - Present}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed fully test driven highly scalable systems for clients accross world
+\item Worked with local clients to create their online business systems from scratch
+\end{tightemize}
+\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PROJECTS
@@ -182,6 +198,17 @@ MySQL \textbullet{} MongoDB \\
 \item Implemented undo / erase / pencil / hint features from scratch
 \item Created a fully functional native app in React Native
 \item Built with reusable components based on React App Architecture
+\end{tightemize}
+
+\runsubsection{Nagini}
+\descript{| Snake game built for pesto bootcamp }
+\location{Sept 2019 – Sept 2019}
+\begin{tightemize}
+\item  The game is playable by either the arrow keys or 'W', 'A', 'S', 'D'.
+\item Implemented the game logic from scratch in JavaScript
+\item Developed all screens using React based on reusable components architecture
+\item Implemented screen updates using React life-cycle methods
+\item Created API to store high scores and user data in NODE
 \end{tightemize}
 
 \end{minipage} 
