@@ -39,8 +39,8 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\namesection{Pranab}{Singh}{
-\href{mailto:pranabb.singh@gmail.com}{pranabb.singh@gmail.com} | 891-085-1148
+\namesection{Anish}{Agarwal}{
+\href{mailto:iamanishagarwal@gmail.com}{iamanishagarwal@gmail.com} | +91-727-850-7708
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -57,17 +57,17 @@
 
 \section{Education} 
 
-\subsection{MEGHNAD SAHA INSTITUTE}
-\subsection{OF TECHNOLOGY}
-\descript{Bachelor in Computer Application}
+\subsection{RCC INSTITUTE OF}
+\subsection{INFORMATION TECHNOLOGY}
+\descript{B.Tech in Computer Science and Engineering}
 \location{June 2020 | Kolkata, India}
-\location{ Cum. GPA: 8.2 / 10}
+\location{ Cum. GPA: 8.1 / 10}
 \sectionsep
 
 \subsection{Calcutta Public School}
 \descript{High School}
 \location{Grad. May 2016|  Kolkata, India}
-\location{ Percentage: 83.25 / 100}
+\location{ Percentage: 89.25 / 100}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,9 +75,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Links} 
-Github:// \href{https://github.com/pranabs1ngh}{\bf pranabs1ngh} \\
-LinkedIn://  \href{https://www.linkedin.com/in/pranabs1ngh}{\bf pranabs1ngh} \\
-Twitter://  \href{https://twitter.com/pranabs1ngh}{\bf @pranabs1ngh} \\
+Github:// \href{https://github.com/iamanishagarwal}{\bf iamanishagarwal} \\
+LinkedIn://  \href{https://www.linkedin.com/in/iamanishagarwal}{\bf iamanishagarwal} \\
+Codechef:// \href{https://www.codechef.com/users/anish_agarwal}{\bf anish\_agarwal} \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -87,25 +87,24 @@ Twitter://  \href{https://twitter.com/pranabs1ngh}{\bf @pranabs1ngh} \\
 \section{Coursework}
 
 \subsection{Undergraduate}
-Design and Analysis of Algorithms \\
-Data Structures with C \\
-Database Management Systems \\
-Computer Architecture\\
-Operating Systems \\
+Data Structure \& Algorithm \\
+Design \& Analysis of Algorithm \\
+Database Management System \\
 Computer Networks \\
-Unix and Shell Scripting \\
+Software Engineering \\
+Internet Technology \\
+
 \sectionsep
 
 \subsection{Relevant Courses}
 \descript{Udemy}
-Modern React with Redux \textbullet{}
-Node.js : Building RESTful APIs \textbullet{}
-Advanced React and Redux \textbullet{}
-Node.js : Advanced Concepts \textbullet{}
-Django Core : Guide to Core Django Concepts \textbullet{}
-Junior to Senior Web Developer Course \textbullet{}
-The Complete React Native + Hooks Course \textbullet{}
-Docker \& Kubernetes : The Complete Guide \\
+The Web Developer Bootcamp \\
+Modern React with Redux \\
+Node.js : Building RESTful APIs \\
+The Complete React Native + Hooks \\
+\descript{Coursera}
+Python for Everybody Specialization \\
+Version Control with Git
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -115,14 +114,13 @@ Docker \& Kubernetes : The Complete Guide \\
 \section{Skills}
 \subsection{Programming}
 \descript{General:}
-Database \textbullet{} Algorithms \textbullet{} Server Side Programming \\
+Database Management System \\ Data Structure \& Algorithm \\ 
+Web Development \\ App Development \\
 \descript{Languages:}
-C \textbullet{} C++ \textbullet{} Python \textbullet{} HTML \textbullet{} CSS \\
-JavaScript \textbullet{} \LaTeX\ \\
+C \textbullet{} C++ \textbullet{} Java \textbullet{} Python \textbullet{} HTML \\ CSS \textbullet{} JavaScript \textbullet{} \LaTeX\ \\
 \descript{Tools / Framework:}
-NodeJs \textbullet{} django \textbullet{} ReactJs \textbullet{} Redux \\
-Docker \textbullet{} Kubernetes \textbullet{} React Native \\
-MySQL \textbullet{} MongoDB \\
+NodeJs \textbullet{} ReactJs \textbullet{} Redux \\
+React Native \textbullet{} MySQL \textbullet{} MongoDB \\
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -141,13 +139,15 @@ MySQL \textbullet{} MongoDB \\
 
 \section{Experience}
 
-\runsubsection{Upwork}
-\descript{| Full Stack JavaScript / Python Developer (Remote) }
-\location{Feb 2019 - Present}
+\runsubsection{Dumanhill Technologies}
+\descript{| Web Development Internship }
+\location{Feb 2019 - May 2019}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developed fully test driven highly scalable systems for clients accross world
-\item Worked with local clients to create their online business systems from scratch
+\item Enhanced the frontend of an online health monitoring app in Angular and Bootstrap
+\item Helped to strategize and develop the admin panel of the health monitoring app. Features included custom billing service for every client, depending on the region and the number of minutes of Opentok service, and giving the admin the access to turn on/off every single screen/feature depending on the role of the user
+\item Developed the API of an Android e-commerce platform using Node.js, Express and MongoDB. Features included OTP authentication, Add to cart and Payment Gateway integration
+\item Designed the UI/UX and developed the screens of the e-commerce app in Android
 \end{tightemize}
 \sectionsep
 
@@ -157,59 +157,58 @@ MySQL \textbullet{} MongoDB \\
 
 \section{Projects}
 
-\runsubsection{Flock}
-\descript{| Full Fledged Native Messaging Application }
-\location{Sept 2019 - Present}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\runsubsection{BookShop}
+\descript{| An application for buying, renting and selling books }
+\location{Aug 2019 – Present}
 \begin{tightemize}
-\item Developed all screens with React Native based on reusable components architecture
-\item Implemented peer to peer instant messaging using web sockets protocol
-\item Implemented group messaging feature
-\item Implemented Audio and Video Call using WebRTC
-\item Wrote server using micro-services architecture
-\item Created server and micro-services in Docker based containers
-\item Implemented load balancer using Kubernetes (for multiple server instances)
-\item Created a basic messaging queue from scratch
-\item Implemented MQ and Authentication service using serverless functions (AWS Lambda / Google Cloud Functions)
-\item Enabled end-to-end encryption using RSA encryption method
-\end{tightemize}
-\sectionsep
-
-\runsubsection{Quivia}
-\descript{| Quiz Game with single/multi-player options }
-\location{July 2019 – Aug 2019}
-\begin{tightemize}
-\item Developed all screens using React based on reusable components architecture
-\item Wrote Screen Update logic based on current game state
+\item Developed all screens using React based on reusable component architecture
+\item Used React life-cycle methods for fetching data
+\item Implemented Redux for state management
 \item Implemented user authentication using google/facebook OAuth or local authentication
-\item Used socket.io to transfer data between two players
-\item Wrote algorithm to maintain socket rooms and match players for a game with specific id
-\item Developed a simple bot to play with the user in case the server can't find an opponent to play with
+\item Implemented google book api for searching books
+\item Implemented payment gateway for order payment
+\item Implemented admin panel for managing user orders
 \end{tightemize}
 \sectionsep
 
-\runsubsection{Sudoku Saga}
-\descript{| Native Sudoku Application }
-\location{Sept 2019 – Oct 2019}
+\runsubsection{Manager}
+\descript{| A webapp for employee management }
+\location{Nov 2019 – Present}
 \begin{tightemize}
-\item Developed all screens using React Native based on reusable components architecture
-\item Wrote a backtracking algorithm from scratch to generate a sudoku board
-\item Hid number of cells based on difficulty level selected by user
-\item Implemented undo / erase / pencil / hint features from scratch
-\item Created a fully functional native app in React Native
-\item Built with reusable components based on React App Architecture
+\item Used React reusable component system for making single page app
+\item Implemented local stroage for storing employee details
+\item Implemented CRUD operations for creating, updating and deleting problem
+\item Built search bar for searching employee
+\item Implemented scroll pagination for showing employees
 \end{tightemize}
+\sectionsep
 
-\runsubsection{Nagini}
-\descript{| Snake game built for pesto bootcamp }
-\location{Sept 2019 – Sept 2019}
+\runsubsection{CODE\_LOG}
+\descript{| A webapp to keep record of the problems solved }
+\location{April 2019 – May 2019}
 \begin{tightemize}
-\item  The game is playable by either the arrow keys or 'W', 'A', 'S', 'D'.
-\item Implemented the game logic from scratch in JavaScript
-\item Developed all screens using React based on reusable components architecture
-\item Implemented screen updates using React life-cycle methods
-\item Created API to store high scores and user data in NODE
+\item Used rest api naming conventions during Node.js Api design
+\item Developed backend of the application using Node.js, Express framework and Mongodb
+\item Used EJS view engine for making dynamic webpages
+\item Implemented token based authentication
+\item Implemented winston package for error handling and logging
+\item Implemented CRUD operation for creating, updating and deleting problem
 \end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Achievements} 
+\begin{tabular}{rll}
+Sep 2019	& 4 star  & Codechef Rating of 1,819 and Country Rank of 7,678\\	
+Apr 2019	& 671\textsuperscript{st}  & Google Kick Start Round B 2019\\
+Oct 2018	& top 5\%  & Design and Analysis of Algorithms course from NPTEL\\
+
+\end{tabular}
+\sectionsep
+
 
 \end{minipage} 
 \end{document}  \documentclass[]{article}
