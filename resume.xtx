@@ -176,8 +176,8 @@ React Native \textbullet{} MySQL \textbullet{} MongoDB \\
 \location{Nov 2019 – Present}
 \begin{tightemize}
 \item Used React reusable component system for making single page app
-\item Implemented local stroage for storing employee details
-\item Implemented CRUD operations for creating, updating and deleting problem
+\item Implemented MongoDB for storing employee details
+\item Implemented CRUD operations for creating, updating and deleting emloyee
 \item Built search bar for searching employee
 \item Implemented scroll pagination for showing employees
 \end{tightemize}
@@ -202,7 +202,8 @@ React Native \textbullet{} MySQL \textbullet{} MongoDB \\
 
 \section{Achievements} 
 \begin{tabular}{rll}
-Sep 2019	& 4 star  & Codechef Rating of 1,819 and Country Rank of 7,678\\	
+Nov 2019	& 1st 	& Coding Competition by Logic Square\\ 
+Sep 2019  	& 4 star  & Codechef Rating of 1,819 and Country Rank of 7,678\\	
 Apr 2019	& 671\textsuperscript{st}  & Google Kick Start Round B 2019\\
 Oct 2018	& top 5\%  & Design and Analysis of Algorithms course from NPTEL\\
 
